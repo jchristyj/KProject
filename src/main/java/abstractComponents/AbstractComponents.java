@@ -15,6 +15,7 @@ public class AbstractComponents {
 	
 	public AbstractComponents(WebDriver driver) {
 		this.driver=driver;
+System.out.println("hello");
 	}
 
 	public void waitPeriod() throws InterruptedException {

@@ -32,7 +32,9 @@ public class StepDefinition {
 		SearchPage searchpage=new SearchPage(driver);
 		searchpage.goToUrl();
 		searchpage.SearchFunc(userText);
+System.out.println("hello");
 		searchpage.waitPeriod();
+
 		
 		ProductPage productPage=new ProductPage(driver);
 		productPage.scrollPageDown(); 
